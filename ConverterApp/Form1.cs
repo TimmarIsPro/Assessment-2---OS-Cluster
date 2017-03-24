@@ -11,7 +11,12 @@ using System.Windows.Forms;
 namespace ConverterApp
     // This program was written by Gail Mosdell
     // It forms the base of a converter program for the OS-Assessment Two for Cert IV
+    // Original base includes code under btn_CM_To_Inches_Click and btn_Exit_Click
     // Date : February 2017
+
+    //Expanded code, including everything other then what is mentioned above, written by Timothy Stewart
+    //Date: 24/03/2017
+
 {
     public partial class frm_Main : Form
     {
@@ -54,7 +59,28 @@ namespace ConverterApp
 
         private void btn_M_to_Feet_Click(object sender, EventArgs e)
         {
-            // Create Code for this procedure
+            
+            const double M_TO_FEET = 3.2808;
+
+            // validate user entry and convert to a double
+
+            if (!double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM))
+            {
+                MessageBox.Show("A numeric must be entered. Please re-enter the value.");
+                txt_UnitOfMeasure.Clear();
+                txt_UnitOfMeasure.Focus();
+                txt_Convert.Clear();
+                lbl_Convert.Text = "";
+                lbl_Display.Text = "";
+            }
+            else
+            {
+                dbl_Convert = dbl_UofM * M_TO_FEET;
+                txt_Convert.Text = dbl_Convert.ToString();
+                lbl_Display.Text = txt_UnitOfMeasure.Text + " metres is converted to ";
+                lbl_Convert.Text = " feet.";
+            }
+
         }
     }
 }
