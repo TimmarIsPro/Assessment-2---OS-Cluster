@@ -138,6 +138,7 @@
             this.btn_CM_To_Feet.TabIndex = 9;
             this.btn_CM_To_Feet.Text = "Centimeters to Feet";
             this.btn_CM_To_Feet.UseVisualStyleBackColor = true;
+            this.btn_CM_To_Feet.Click += new System.EventHandler(this.btn_CM_To_Feet_Click);
             // 
             // btn_KM_To_Miles
             // 
