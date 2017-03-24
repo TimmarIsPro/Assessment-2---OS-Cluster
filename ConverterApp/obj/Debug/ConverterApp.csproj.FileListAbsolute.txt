@@ -25,3 +25,12 @@ E:\New folder\OS-Assessment2-master\OS-Assessment2-master\ConverterApp\Converter
 E:\New folder\OS-Assessment2-master\OS-Assessment2-master\ConverterApp\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
 E:\New folder\OS-Assessment2-master\OS-Assessment2-master\ConverterApp\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
 E:\New folder\OS-Assessment2-master\OS-Assessment2-master\ConverterApp\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-expanded_Part_2\Assessment-2---OS-Cluster-expanded_Part_2\ConverterApp\bin\Debug\ConverterApp.exe.config
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-expanded_Part_2\Assessment-2---OS-Cluster-expanded_Part_2\ConverterApp\obj\Debug\ConverterApp.exe
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-expanded_Part_2\Assessment-2---OS-Cluster-expanded_Part_2\ConverterApp\obj\Debug\ConverterApp.pdb
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-expanded_Part_2\Assessment-2---OS-Cluster-expanded_Part_2\ConverterApp\bin\Debug\ConverterApp.exe
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-expanded_Part_2\Assessment-2---OS-Cluster-expanded_Part_2\ConverterApp\bin\Debug\ConverterApp.pdb
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-expanded_Part_2\Assessment-2---OS-Cluster-expanded_Part_2\ConverterApp\obj\Debug\ConverterApp.csprojResolveAssemblyReference.cache
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-expanded_Part_2\Assessment-2---OS-Cluster-expanded_Part_2\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-expanded_Part_2\Assessment-2---OS-Cluster-expanded_Part_2\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-expanded_Part_2\Assessment-2---OS-Cluster-expanded_Part_2\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
