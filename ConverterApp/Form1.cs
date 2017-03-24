@@ -105,6 +105,30 @@ namespace ConverterApp
             }
         }
 
+        private void btn_KM_To_Miles_Click(object sender, EventArgs e)
+        {
+            const double KM_TO_MILES = 0.621371;
+
+            // validate user entry and convert to a double
+
+            if (!double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM))
+            {
+                MessageBox.Show("A numeric must be entered. Please re-enter the value.");
+                txt_UnitOfMeasure.Clear();
+                txt_UnitOfMeasure.Focus();
+                txt_Convert.Clear();
+                lbl_Convert.Text = "";
+                lbl_Display.Text = "";
+            }
+            else
+            {
+                dbl_Convert = dbl_UofM * KM_TO_MILES;
+                txt_Convert.Text = dbl_Convert.ToString();
+                lbl_Display.Text = txt_UnitOfMeasure.Text + " kilometers is converted to ";
+                lbl_Convert.Text = " miles.";
+            }
+        }
+
         private void btn_M_to_Feet_Click(object sender, EventArgs e)
         {
             

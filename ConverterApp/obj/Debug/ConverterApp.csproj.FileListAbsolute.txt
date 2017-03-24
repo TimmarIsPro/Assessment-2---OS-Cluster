@@ -43,3 +43,12 @@ E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-cm_to_
 E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-cm_to_feet-addition\Assessment-2---OS-Cluster-cm_to_feet-addition\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
 E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-cm_to_feet-addition\Assessment-2---OS-Cluster-cm_to_feet-addition\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
 E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-cm_to_feet-addition\Assessment-2---OS-Cluster-cm_to_feet-addition\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-km_to_miles\Assessment-2---OS-Cluster-km_to_miles\ConverterApp\bin\Debug\ConverterApp.exe.config
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-km_to_miles\Assessment-2---OS-Cluster-km_to_miles\ConverterApp\obj\Debug\ConverterApp.exe
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-km_to_miles\Assessment-2---OS-Cluster-km_to_miles\ConverterApp\obj\Debug\ConverterApp.pdb
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-km_to_miles\Assessment-2---OS-Cluster-km_to_miles\ConverterApp\bin\Debug\ConverterApp.exe
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-km_to_miles\Assessment-2---OS-Cluster-km_to_miles\ConverterApp\bin\Debug\ConverterApp.pdb
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-km_to_miles\Assessment-2---OS-Cluster-km_to_miles\ConverterApp\obj\Debug\ConverterApp.csprojResolveAssemblyReference.cache
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-km_to_miles\Assessment-2---OS-Cluster-km_to_miles\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-km_to_miles\Assessment-2---OS-Cluster-km_to_miles\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
+E:\Open Source and Testing Cluster\Assessment 2\Assessment-2---OS-Cluster-km_to_miles\Assessment-2---OS-Cluster-km_to_miles\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache

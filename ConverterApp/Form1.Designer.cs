@@ -149,6 +149,7 @@
             this.btn_KM_To_Miles.TabIndex = 10;
             this.btn_KM_To_Miles.Text = "Kilometers to Miles";
             this.btn_KM_To_Miles.UseVisualStyleBackColor = true;
+            this.btn_KM_To_Miles.Click += new System.EventHandler(this.btn_KM_To_Miles_Click);
             // 
             // frm_Main
             // 
