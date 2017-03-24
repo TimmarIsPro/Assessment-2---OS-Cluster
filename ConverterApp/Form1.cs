@@ -81,6 +81,30 @@ namespace ConverterApp
             }
         }
 
+        private void btn_CM_To_Feet_Click(object sender, EventArgs e)
+        {
+            const double CM_TO_FEET = 0.0328084;
+
+            // validate user entry and convert to a double
+
+            if (!double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM))
+            {
+                MessageBox.Show("A numeric must be entered. Please re-enter the value.");
+                txt_UnitOfMeasure.Clear();
+                txt_UnitOfMeasure.Focus();
+                txt_Convert.Clear();
+                lbl_Convert.Text = "";
+                lbl_Display.Text = "";
+            }
+            else
+            {
+                dbl_Convert = dbl_UofM * CM_TO_FEET;
+                txt_Convert.Text = dbl_Convert.ToString();
+                lbl_Display.Text = txt_UnitOfMeasure.Text + " centimetres is converted to ";
+                lbl_Convert.Text = " feet.";
+            }
+        }
+
         private void btn_M_to_Feet_Click(object sender, EventArgs e)
         {
             
