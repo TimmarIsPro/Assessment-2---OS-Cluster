@@ -33,12 +33,11 @@
             this.btn_CM_to_Inches = new System.Windows.Forms.Button();
             this.btn_M_to_Feet = new System.Windows.Forms.Button();
             this.btn_Exit = new System.Windows.Forms.Button();
-            this.lbl_Display = new System.Windows.Forms.Label();
-            this.lbl_Convert = new System.Windows.Forms.Label();
-            this.txt_Convert = new System.Windows.Forms.TextBox();
             this.btn_C_To_F = new System.Windows.Forms.Button();
             this.btn_CM_To_Feet = new System.Windows.Forms.Button();
             this.btn_KM_To_Miles = new System.Windows.Forms.Button();
+            this.listResults = new System.Windows.Forms.ListBox();
+            this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_UofM
@@ -83,7 +82,7 @@
             // 
             // btn_Exit
             // 
-            this.btn_Exit.Location = new System.Drawing.Point(211, 252);
+            this.btn_Exit.Location = new System.Drawing.Point(170, 259);
             this.btn_Exit.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(56, 19);
@@ -92,32 +91,6 @@
             this.btn_Exit.UseVisualStyleBackColor = true;
             this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
-            // lbl_Display
-            // 
-            this.lbl_Display.AutoSize = true;
-            this.lbl_Display.Location = new System.Drawing.Point(5, 222);
-            this.lbl_Display.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbl_Display.Name = "lbl_Display";
-            this.lbl_Display.Size = new System.Drawing.Size(0, 13);
-            this.lbl_Display.TabIndex = 5;
-            // 
-            // lbl_Convert
-            // 
-            this.lbl_Convert.AutoSize = true;
-            this.lbl_Convert.Location = new System.Drawing.Point(210, 222);
-            this.lbl_Convert.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbl_Convert.Name = "lbl_Convert";
-            this.lbl_Convert.Size = new System.Drawing.Size(0, 13);
-            this.lbl_Convert.TabIndex = 6;
-            // 
-            // txt_Convert
-            // 
-            this.txt_Convert.Location = new System.Drawing.Point(150, 220);
-            this.txt_Convert.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_Convert.Name = "txt_Convert";
-            this.txt_Convert.Size = new System.Drawing.Size(54, 20);
-            this.txt_Convert.TabIndex = 7;
-            // 
             // btn_C_To_F
             // 
             this.btn_C_To_F.Location = new System.Drawing.Point(66, 117);
@@ -125,7 +98,7 @@
             this.btn_C_To_F.Name = "btn_C_To_F";
             this.btn_C_To_F.Size = new System.Drawing.Size(122, 19);
             this.btn_C_To_F.TabIndex = 8;
-            this.btn_C_To_F.Text = "Celcius to Fahrenheit";
+            this.btn_C_To_F.Text = "Celsius to Fahrenheit";
             this.btn_C_To_F.UseVisualStyleBackColor = true;
             this.btn_C_To_F.Click += new System.EventHandler(this.btn_C_To_F_Click);
             // 
@@ -151,17 +124,35 @@
             this.btn_KM_To_Miles.UseVisualStyleBackColor = true;
             this.btn_KM_To_Miles.Click += new System.EventHandler(this.btn_KM_To_Miles_Click);
             // 
+            // listResults
+            // 
+            this.listResults.FormattingEnabled = true;
+            this.listResults.Location = new System.Drawing.Point(220, 54);
+            this.listResults.Name = "listResults";
+            this.listResults.Size = new System.Drawing.Size(364, 147);
+            this.listResults.TabIndex = 11;
+            // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(328, 206);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(122, 19);
+            this.btnClear.TabIndex = 12;
+            this.btnClear.Text = "Clear Stored Data";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
             // frm_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(280, 289);
+            this.ClientSize = new System.Drawing.Size(599, 289);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.listResults);
             this.Controls.Add(this.btn_KM_To_Miles);
             this.Controls.Add(this.btn_CM_To_Feet);
             this.Controls.Add(this.btn_C_To_F);
-            this.Controls.Add(this.txt_Convert);
-            this.Controls.Add(this.lbl_Convert);
-            this.Controls.Add(this.lbl_Display);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_M_to_Feet);
             this.Controls.Add(this.btn_CM_to_Inches);
@@ -182,12 +173,11 @@
         private System.Windows.Forms.Button btn_CM_to_Inches;
         private System.Windows.Forms.Button btn_M_to_Feet;
         private System.Windows.Forms.Button btn_Exit;
-        private System.Windows.Forms.Label lbl_Display;
-        private System.Windows.Forms.Label lbl_Convert;
-        private System.Windows.Forms.TextBox txt_Convert;
         private System.Windows.Forms.Button btn_C_To_F;
         private System.Windows.Forms.Button btn_CM_To_Feet;
         private System.Windows.Forms.Button btn_KM_To_Miles;
+        private System.Windows.Forms.ListBox listResults;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 
